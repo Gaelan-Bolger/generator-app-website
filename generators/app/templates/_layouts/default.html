@@ -45,9 +45,9 @@
   <meta property="al:android:package" content="{{ site.googlePlayId }}">
   {% endif %}
 
-  <link rel="icon" href="/img/logo.png">
-  <link rel="apple-touch-icon-precomposed" href="/img/logo.png">
-  <link rel="stylesheet" href="/css/bundle.css">
+  <link rel="icon" href="img/logo.png">
+  <link rel="apple-touch-icon-precomposed" href="img/logo.png">
+  <link rel="stylesheet" href="css/bundle.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400&subset=latin,cyrillic">
 
 	<!--[if lt IE 9]>
@@ -66,7 +66,7 @@
       <div class="container">
         <div class="columns is-vcentered">
           <div class="column left is-offset-2 is-4">
-            <h1 class="title is-1"><img class="logo" src="/img/logo.png">{{ site.title }}</h1>
+            <h1 class="title is-1"><img class="logo" src="img/logo.png">{{ site.title }}</h1>
             <p>{{ site.description }}</p>
             {% if site.mailchimpFormActionUrl %}
             <form action="{{ site.mailchimpFormActionUrl }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mc-form" target="_blank" novalidate="novalidate">
@@ -89,23 +89,23 @@
             {% endif %}
             {% if site.appStoreId %}
             <a class="download-button" href="https://itunes.apple.com/app/id{{ site.appStoreId }}">
-              <img src="/img/appstore-{{ site.language }}.svg">
+              <img src="img/appstore-{{ site.language }}.svg">
             </a>
             {% endif %}
             {% if site.googlePlayId %}
             <a class="download-button" href="https://play.google.com/store/apps/details?id={{ site.googlePlayId }}">
-              <img src="/img/googleplay-{{ site.language }}.svg">
+              <img src="img/googleplay-{{ site.language }}.svg">
             </a>
             {% endif %}
           </div>
           <div class="column right is-4">
             <div class="carousel-container">
               <div class="carousel">
-                <img src="/img/screenshot-1.jpg">
-                <img src="/img/screenshot-2.jpg">
-                <img src="/img/screenshot-3.jpg">
-                <img src="/img/screenshot-4.jpg">
-                <img src="/img/screenshot-5.jpg">
+                <img src="img/screenshot-1.jpg">
+                <img src="img/screenshot-2.jpg">
+                <img src="img/screenshot-3.jpg">
+                <img src="img/screenshot-4.jpg">
+                <img src="img/screenshot-5.jpg">
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@
     </div>
   </section>
 
-  <script src="/js/bundle.js"></script>
+  <script src="js/bundle.js"></script>
   {% if site.googleAnalytics %}
   <script type="text/javascript">
     var _gaq = _gaq || [];
